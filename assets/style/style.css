@@ -36,8 +36,21 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 
+.container .card .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container .card .time span {
     font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.container .card .time small {
+    font-size: 1em;
     font-weight: 700;
     color: #fff;
 }
