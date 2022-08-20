@@ -43,7 +43,7 @@ body {
     align-items: center;
 }
 
-.container .card .time span {
+.container .card .time h2 {
     font-size: 2em;
     font-weight: 700;
     color: #fff;
