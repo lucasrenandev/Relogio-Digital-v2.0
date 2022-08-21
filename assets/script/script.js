@@ -5,6 +5,7 @@ const minutos = container.querySelector("#minutos")
 const segundos = container.querySelector("#segundos")
 
 function Number(element) {
+    
     if(element < 10) {
         return '0' + element
     }
